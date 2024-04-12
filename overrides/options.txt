@@ -36,14 +36,14 @@ simulationDistance:5
 entityDistanceScaling:0.5
 guiScale:4
 particles:1
-maxFps:260
+maxFps:150
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Create+Simple+Storage+2.1.zip","Create_Building_Gadgets_GUI_and_3D_Items.zip","Created Ender Storage 1.1.zip","Lush Leaves.zip","MekaCreate.zip","Moonlight Mods Dynamic Assets","Thermal_Create_1.18.zip","amended_creative_tabs.zip","builtin/resource/overrides_pack","fabric","sanctuary-title-screen"]
+incompatibleResourcePacks:["Create+Simple+Storage+2.1.zip","Create_Building_Gadgets_GUI_and_3D_Items.zip","Created Ender Storage 1.1.zip","Lush Leaves.zip","MekaCreate.zip","Thermal_Create_1.18.zip","amended_creative_tabs.zip","sanctuary-title-screen"]
 lastServer:mc.alimines.com
 lang:en_us
 soundDevice:""
@@ -142,7 +142,7 @@ key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.slash
+key_key.mute_microphone:key.keyboard.caps.lock
 key_key.disable_voice_chat:key.keyboard.n
 key_key.hide_icons:key.keyboard.comma
 key_key.voice_chat:key.keyboard.v
