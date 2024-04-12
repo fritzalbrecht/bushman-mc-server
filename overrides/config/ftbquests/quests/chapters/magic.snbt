@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "magic"
+	group: ""
+	icon: "minecraft:enchanting_table"
+	id: "2F09E52EAF8DBFD6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4B4F95B87B1E869D"
+				"651D449CCCD87B44"
+			]
+			id: "359EEB4796E6BA48"
+			rewards: [
+				{
+					id: "0D90636F9C868566"
+					item: "create_enchantment_industry:enchanting_guide"
+					type: "item"
+				}
+				{
+					id: "5278C076165405D5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Right clicking a Blaze Burner with an enchanting guide will create a Blaze Enchanter. Feed it experience from the bottom, and items on top."
+			tasks: [{
+				id: "07D6A0CDD5BF41D6"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "Enchanting Automation"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["359EEB4796E6BA48"]
+			id: "0D6E9986B1B8262C"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "18E91EE34CA4B085"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "7AA7F2DEF83F18B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Hyper Experience can be used to push enchantments beyond normal levels."
+			tasks: [
+				{
+					id: "356F06A7E41CEB4C"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					amount: 10L
+					fluid: "create_enchantment_industry:hyper_experience"
+					id: "3BF2142E037126FE"
+					type: "fluid"
+				}
+			]
+			title: "EXTREME ENCHANTING"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["359EEB4796E6BA48"]
+			id: "475F51D211FD0736"
+			rewards: [
+				{
+					count: 16
+					id: "7B02EAF1FB99A949"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "0BC94517E38F7EC9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "The Printer can be used to duplicate enchanted books, which can later be applied on an anvil."
+			tasks: [{
+				id: "5BA94A823D7B9616"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			title: "The Printing Press"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "651D449CCCD87B44"
+			rewards: [
+				{
+					id: "6780E9FC0D45E999"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "553B089296CF0BD5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "64747CDD6F787392"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Welcome To The Dark Arts"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C627E84158A9ABF"]
+			id: "761978D0D12C65B9"
+			rewards: [
+				{
+					id: "4B2BD06EEC1E8DFD"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "2647F629391C524F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7FCB37F20BBDC1F2"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			title: "Choose Your Own Enchantments"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["761978D0D12C65B9"]
+			id: "50C6D50190BC2F0E"
+			rewards: [
+				{
+					id: "1DE91A731419713A"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "5487682A7AEF3C02"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1D2C7CBCDB03D11D"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			title: "Getting An Upgrade"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A399107470D340B"]
+			id: "0F96E6EC984970BF"
+			rewards: [
+				{
+					id: "627AA2869FF72765"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4BA677341308D0F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "318A1BC22B3EF43E"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "Upgrading Your Shelves"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F96E6EC984970BF"]
+			id: "4277CC8B2F48D35C"
+			rewards: [
+				{
+					id: "114C291034E02171"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1B1B60ECC61FC489"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchanting your shelves will allow you to reach higher enchanting levels."
+			tasks: [{
+				id: "4A3BAED3B88FC9F4"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			title: "Infusion"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["651D449CCCD87B44"]
+			description: ["You will need to craft upgraded bookshelves to unlock higher power levels of enchantments, and tailor their stats to your needs."]
+			id: "6A399107470D340B"
+			rewards: [
+				{
+					id: "5263F17A0CC77B59"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE9A7776CC7DFD1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Apotheosis is an enchanting overhaul mod that adds a progression system, as well as numerous new enchantments."
+			tasks: [{
+				id: "7F8E9E0A8D055AD3"
+				title: "Getting Started With Apotheosis"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2644FA8947A8E6F5"]
+			id: "68420BC67CF11857"
+			rewards: [
+				{
+					id: "57BD49EDAE74950B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7AC06D477459A1E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1AAB51D49C0605BA"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68420BC67CF11857"]
+			id: "08B45291619F862E"
+			rewards: [
+				{
+					id: "757AAECDDF92E9AE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6AE1D3430CFEC4E4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "734D3D94C3B50153"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F96E6EC984970BF"]
+			id: "2644FA8947A8E6F5"
+			rewards: [
+				{
+					id: "06596DAB9E865F64"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "642AA3F2E332CBB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4D54113988A072AC"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2644FA8947A8E6F5"]
+			id: "6B7711F6F9B2DA5F"
+			rewards: [
+				{
+					id: "5805FF9DD349EC71"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "664CF175E78F2164"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "642A977DB4A85A3C"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7711F6F9B2DA5F"]
+			id: "5770C19CEE94BD1F"
+			rewards: [
+				{
+					id: "5534B87CCABF5D07"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "49F99D7EC87CC663"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0F93DBD2EA79BC5B"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08B45291619F862E"]
+			id: "1F879E68AACC51C4"
+			rewards: [
+				{
+					id: "0BD08BE9B0210B91"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "376D5690CC5E0F1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5770A5B6280079D8"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "The Best Shelf"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5770C19CEE94BD1F"]
+			id: "780F410B6EE3DC2E"
+			rewards: [
+				{
+					id: "652911825B7D497D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6199B66809FE77B3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5EDCA53E639C86E5"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			title: "Controlling Your Enchantments"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["780F410B6EE3DC2E"]
+			id: "5FF687BDBC22FDAF"
+			rewards: [
+				{
+					id: "6901725888F88A2E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7151B526C38F500A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "587625E42EEA7615"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			title: "Upgraded Rectification"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FF687BDBC22FDAF"]
+			id: "64C89147BE7F2478"
+			rewards: [
+				{
+					id: "105BC056F0A3ED36"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1885B9CAE88FF039"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "249F25EC580EA61D"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			title: "Enchanting Master"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A399107470D340B"]
+			id: "3032522FC60DA6C4"
+			rewards: [{
+				id: "17051343783BDEDA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "In your adventures, you will find items in chests and dropped from bosses that have special properties."
+			tasks: [{
+				id: "62F03E2B70070C45"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Collecting Affixes"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3032522FC60DA6C4"]
+			id: "2A4AE6522A71255C"
+			rewards: [{
+				id: "3E22935665E0ADA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2307187B857F2E37"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Reforging Affixes"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4277CC8B2F48D35C"]
+			id: "5A2697A95E379A10"
+			rewards: [
+				{
+					id: "2EC03923E8E58E66"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "156CFA371D53C61C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7D69D8A35BB5F96E"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F96E6EC984970BF"]
+			id: "4BECBA593CB567A9"
+			rewards: [
+				{
+					id: "37113C2F841EB09C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0AC59CBE9747BBBA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Melonshelves can be used to tune down the randomness of enchantments, at the cost of power."
+			tasks: [{
+				id: "00E5E5200BDDE9EB"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			title: "Melon Power"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A2697A95E379A10"]
+			id: "0C627E84158A9ABF"
+			rewards: [
+				{
+					id: "17F9320951EA3746"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "0769E6DB5A00DB70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6BDD5C2D36C9520F"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			title: "Totally Unnecessary"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A399107470D340B"]
+			id: "07C7B62F54969AF4"
+			rewards: [
+				{
+					id: "106052AEA6F0220C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "666EE04E1897997A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Tomes will only accept specific kinds of enchantments that are more relevant to what you're enchanting"
+			tasks: [{
+				id: "295A0F020AB2757F"
+				item: "apotheosis:helmet_tome"
+				type: "item"
+			}]
+			title: "Focusing Your Power"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07C7B62F54969AF4"]
+			id: "15AA44585362A870"
+			rewards: [
+				{
+					id: "758927C8A8B7880F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "043CCFFBDA20E150"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Scrapping Tomes can be applied with an enchanted item in an anvil to recycle the enchantment!"
+			tasks: [{
+				id: "1217C46820909693"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			title: "Recycle!"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3032522FC60DA6C4"]
+			id: "754D4906620EB337"
+			rewards: [{
+				id: "7F92E59A038BF321"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Sockets are slots that can accept upgrades. You can use the smithing table to socket items, and use Sigils of Socketing to add sockets."
+			tasks: [{
+				id: "2649504376C159FE"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			title: "Gems and Sockets"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["754D4906620EB337"]
+			id: "2E321183A34BD650"
+			rewards: [{
+				id: "1D9D3D793BF50801"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A fourth socket slot."
+			tasks: [{
+				id: "79FE19F24EC53155"
+				item: "apotheosis:superior_sigil_of_socketing"
+				type: "item"
+			}]
+			title: "Aproaching OP"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78521DEA51C5636C"]
+			id: "369979C817129202"
+			rewards: [{
+				id: "2070053CA6694CD9"
+				item: "kubejs:package_arcana"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C78C31995E8952F"
+				item: "balancedflight:ascended_flight_ring"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "78521DEA51C5636C"
+			subtitle: "The Flight Anchor allows creative mode flight around it for a hefty power cost."
+			tasks: [{
+				id: "009DBF7A46E6B7AD"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+	]
+	title: "Magic"
+}

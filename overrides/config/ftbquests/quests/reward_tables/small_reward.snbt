@@ -1,0 +1,8 @@
+{
+	icon: "minecraft:iron_ingot"
+	id: "59035EC59EF3D2BA"
+	loot_size: 1
+	order_index: 0
+	rewards: [{ item: "minecraft:polished_granite" }]
+	title: "small_reward"
+}

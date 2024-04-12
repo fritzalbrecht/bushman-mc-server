@@ -1,0 +1,8 @@
+
+["YUNG's Better Jungle Temples"]
+
+	["YUNG's Better Jungle Temples".General]
+		"Disable Vanilla Jungle Temples" = true
+		#Whether PYP poison darts should spawn in Better Jungle Temples.
+		"Enable Pick Your Poison Compatibility" = true
+

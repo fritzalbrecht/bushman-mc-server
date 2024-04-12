@@ -1,0 +1,1766 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "tech_progression"
+	group: ""
+	icon: "thermal:iron_gear"
+	id: "2973C57522B194A3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"Andesite Alloy is the base element for cogwheels and shafts, and is used to craft andesite casings."
+			]
+			id: "214364B90F8AB180"
+			rewards: [
+				{
+					id: "5B2C2765CE04FA9E"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "2864F0ACC3EBD7BD"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "06E6B3691060D846"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "281289E6382F3F36"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4E249CBD86AD449F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Getting Started With Create"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["214364B90F8AB180"]
+			id: "6843BFA936EBAD1F"
+			rewards: [
+				{
+					count: 32
+					id: "6CA96F78486255DA"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "274B1AEA2593CC2E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "14EBD123154719EA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "2BA69CD9351A8F06"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "2D40F732601A6C96"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "2033D198950E05A8"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "The Andesite Age"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6843BFA936EBAD1F"]
+			id: "7112B87A8738A7E4"
+			rewards: [
+				{
+					id: "0B1580B9EA4BAC5F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "375255910F07C14C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2323B145B3149E00"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6843BFA936EBAD1F"]
+			description: ["Mekanism pipes are just better."]
+			id: "4B4F95B87B1E869D"
+			rewards: [
+				{
+					count: 16
+					id: "5F79C5CC080D56D9"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					id: "31A92C350509CDD1"
+					item: {
+						Count: 1b
+						id: "mekanism:configurator"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "60000"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710F631DCC7DCA73"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "634584A72D8A5AB5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2E9B6819BC0E037A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Fluid Mechanics"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6843BFA936EBAD1F"]
+			id: "0410C2CF90BE96AA"
+			rewards: [
+				{
+					id: "4C8118C172E00D87"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6CE2ABA797F7FE9F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "39EF4F0BCCD55BBE"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Getting Power"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["079044E9996F1FFE"]
+			description: ["Check the Ponder scene (Hold W) for the mechanical harvester!"]
+			id: "58276EEA74F82915"
+			rewards: [
+				{
+					id: "2C22E5867459E06D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0E5CD454A11DEBFA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "You can use a spinning contraption with a mechanical harvester to automatically harvest crops."
+			tasks: [
+				{
+					id: "72C8036708807E87"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					id: "038B22D153B1936F"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "05D0E6A958F4F2CD"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "224678468B845B36"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "7409439922AB6FE5"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+			]
+			title: "Automating Farming"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0410C2CF90BE96AA"]
+			id: "079044E9996F1FFE"
+			rewards: [
+				{
+					id: "24444876535886C3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2D6B2E8D3AE06EAF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "You will need a Mechanical Press to create plates, one of the main crafting ingredients in many recipes."
+			tasks: [
+				{
+					id: "63C89D77B57E7DF5"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4037B2D91895E5EB"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "The Industrial Revolution and Its Consequences"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0410C2CF90BE96AA"]
+			id: "35772890501AB99D"
+			rewards: [
+				{
+					id: "2AB7D36CD3F592B4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "32A3974B9D7DC5C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Windmills are one of the most effective and simple ways of generating rotational power."
+			tasks: [
+				{
+					id: "613282AA55863492"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "779A2DBA58B60B40"
+					item: "create:sail_frame"
+					type: "item"
+				}
+			]
+			title: "Renewable Energy"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6843BFA936EBAD1F"]
+			id: "7299A60EEB22D9B0"
+			rewards: [
+				{
+					id: "217D7E221E65EC16"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "40E504B8B422EB4D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Create gearboxes to move power more efficiently."
+			tasks: [
+				{
+					id: "429DD019D0F90AE8"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "3383722364E391CA"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "Compact Power Transfer"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7299A60EEB22D9B0"]
+			id: "04712351499E8239"
+			rewards: [
+				{
+					id: "06F7A8E3FFCF50B3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3D7A7FD2C3F39B9A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0F6DF26290BEA185"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Automation!"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58276EEA74F82915"]
+			id: "4CE31B2E8A70E8E6"
+			rewards: [
+				{
+					id: "5768BE00EF8655DB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "222145A2373E16F0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "You will need a saw to destroy trees, and a deployer to plant saplings back."
+			tasks: [
+				{
+					id: "0F082F62ABDC586C"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "4A1D51489811C6E9"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "Tree Harvesting"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A8DC0581DD5F14A"]
+			id: "2CF98889E268A26C"
+			rewards: [
+				{
+					id: "5C766AA2863895A4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "37EEB55914FE302A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Powered by Amethyst and delicately crafted Create casings, the Machine Frame is your ticket into the electronic age."
+			tasks: [{
+				id: "5F9CCCDF9319749F"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "The Electric Age"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CDAC02F572CB735"]
+			id: "4A8DC0581DD5F14A"
+			rewards: [
+				{
+					id: "6B59DE55EB56B6C3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "56C5608B30DD41B8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "37F94053A6BAA0ED"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58276EEA74F82915"]
+			id: "0CDAC02F572CB735"
+			rewards: [
+				{
+					id: "371DD4AF8692913D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7679C240FC8F8CBB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Capture a Blaze!"
+			tasks: [
+				{
+					id: "4D36AF0B7962DC2F"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "6D23C46F18479CA8"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "23161C8E60898157"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Mixing Alloys"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CF98889E268A26C"]
+			id: "0823597534431496"
+			rewards: [
+				{
+					id: "4A06D1D461D7B521"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2D5F68FA8CEC945E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "426DA380C5681DD6"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "Electric Power Generation"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0823597534431496"]
+			id: "2050040D98A9ECA9"
+			rewards: [
+				{
+					id: "0A98771321430261"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "50443491D931F82E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The electric Induction Smelter is strong enough to melt coal and iron into steel, which can be used to craft cables."
+			tasks: [
+				{
+					id: "655154DD5720DFFD"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+				{
+					id: "18EDE464B6A0E6AF"
+					item: "mekanism:basic_universal_cable"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0823597534431496"]
+			id: "1AC0F91C0C9FB442"
+			rewards: [
+				{
+					id: "576380610C7DC2F5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "48E2A8845AC9A2C3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2F0E3A6A14A2F38C"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "Electric Smelting!"
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A643CBF8D26DA84"]
+			id: "797533331E172133"
+			rewards: [
+				{
+					id: "42E19028713CB3F7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "37660296B81F1490"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0D2CB8AD039DA99A"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			title: "Upgrading Your Stuff"
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A8DC0581DD5F14A"]
+			id: "4B115DF36EBDCD1F"
+			rewards: [
+				{
+					id: "495362568B8DDB37"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "44D6FF37F26F8570"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The Mechanical Crafter is used for large crafting recipes, and must be made to progress further."
+			tasks: [{
+				id: "35C136292310A442"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Automating Crafting"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B115DF36EBDCD1F"]
+			id: "1C718129CA9813F5"
+			rewards: [
+				{
+					id: "6423AC3FB38CA158"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "48317B4394D73496"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "35BF598BEF9EDEB2"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C718129CA9813F5"]
+			id: "565B48C18334683D"
+			rewards: [
+				{
+					id: "7711EF925288EB80"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5E334020D865B8A8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Train casings have a complicated assembly sequence, starting with crushed obsidian, lava poured on top, and smashed twice."
+			tasks: [{
+				id: "6E10D3AF37B11F85"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Making Train Casings"
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"145F560C6BBF3785"
+				"445C6FC32E60D0EC"
+				"51B7558C980E241A"
+			]
+			id: "742D08617FD31053"
+			rewards: [
+				{
+					id: "7908CE4515EC32FB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7BA4C5A4786C01CF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Everyone's favorite mod."
+			tasks: [{
+				id: "4E6D67DF3DAFF704"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Mekanism!"
+			x: 20.5d
+			y: -3.0d
+		}
+		{
+			id: "145F560C6BBF3785"
+			rewards: [
+				{
+					id: "280873CE7ADD6C3B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "610315D2D8A51EC3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "You can make an infuser without the gated steel casings, which can let you craft certain items in the early game."
+			tasks: [{
+				id: "21B3333591245BE6"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Crafting Circuits"
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["145F560C6BBF3785"]
+			id: "30D3AA7DA7F07C38"
+			rewards: [
+				{
+					id: "7A92BDE016CC2A0A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "06F79F875C67B261"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "1ABA893155DD2B2A"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["565B48C18334683D"]
+			id: "445C6FC32E60D0EC"
+			rewards: [
+				{
+					id: "241CF857B748745E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "704700498F7DB731"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "60CB2C8FB8B5659D"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "TRAINS!"
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["445C6FC32E60D0EC"]
+			id: "612C71C4E6FDFC59"
+			rewards: [
+				{
+					id: "76F8EC0EBE444229"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4760DD79DDA0F73F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "1337E369DA82DB23"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["445C6FC32E60D0EC"]
+			id: "566E53147D095E22"
+			rewards: [
+				{
+					id: "15CFA3DAE986290E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "38519B7143B707F4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2B94756237C8963A"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A643CBF8D26DA84"]
+			id: "51B7558C980E241A"
+			rewards: [
+				{
+					id: "03813308F5827429"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0CA6A2123007C8B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "64FF720EF19B16FB"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			title: "Wither-Proof Glass"
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			id: "5C6FF1EFA7AE773D"
+			rewards: [
+				{
+					id: "16FA5367169E8F3E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "19D63F97ADAFC4DD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The Rolling Mill is the key to creating rods and wires used in electrical components."
+			tasks: [{
+				id: "1FA6CD6F5F292CBA"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			title: "Electrifying Create"
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4B115DF36EBDCD1F"
+				"5C6FF1EFA7AE773D"
+			]
+			id: "42EBC079D017D85B"
+			rewards: [
+				{
+					id: "421AB5B0E0A8798E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "560ED2A0BB345F5F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "00CE58B6480CA18F"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2050040D98A9ECA9"]
+			id: "1A643CBF8D26DA84"
+			rewards: [
+				{
+					id: "44AE096A7097380D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7D2FAF46772C2206"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Thermal has many alloys that are used for various upgrades."
+			tasks: [{
+				id: "46BC91756EA3A68E"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["742D08617FD31053"]
+			id: "729CB7586E200FC6"
+			rewards: [
+				{
+					id: "246F6BE20A9667F5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "704DFDEE19D7A742"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "028D2A4D0FC8E565"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6315882062E470C6"]
+			id: "6FD0BA50B66EC9E2"
+			rewards: [
+				{
+					id: "0108061488CDCA35"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "73A47DEFECC8A437"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "429915E9EF594447"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "57BEA15A7341400A"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "5F32CED1D884D581"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 26.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A25D3A40BB32D06"]
+			id: "420379B65318468C"
+			rewards: [
+				{
+					id: "7E14299426B11BA3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "02854C4AB3F8DDC1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5B07ED0E798C0208"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["742D08617FD31053"]
+			id: "4A25D3A40BB32D06"
+			rewards: [
+				{
+					id: "4955FF58FB846D72"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "73ACB9A2B6412B3F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4A85EEA5D1662D6B"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"420379B65318468C"
+				"4A25D3A40BB32D06"
+			]
+			id: "3C8C5D447C29D34C"
+			rewards: [
+				{
+					id: "016797B854BD13DC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "35CFF38E52146E2B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "735A8B3DE2D84147"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Automatic Mining"
+			x: 26.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["729CB7586E200FC6"]
+			id: "6315882062E470C6"
+			rewards: [
+				{
+					id: "4C66E0830BB5CAA3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3E98C2387E15268A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "021AE40136479893"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "08B0F821548DC2CA"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "4209D2724D6455C3"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "Fission Reactor"
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2050040D98A9ECA9"]
+			id: "10C6DAEB350E5B53"
+			rewards: [
+				{
+					id: "0B60900BAA076962"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7514E5A1EFF34A33"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "53D9F911BD27FBBA"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Getting Wireless Power"
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10C6DAEB350E5B53"]
+			id: "4B744A3F86BA4C17"
+			rewards: [
+				{
+					id: "1086CF92CD1DB605"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1E74E0208BD1DE12"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "222C99CE6DE29FF3"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "110D6E868A507E78"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Wireless Power"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E13C44AD84ACB51"]
+			id: "21238484C3C2FE56"
+			rewards: [
+				{
+					id: "160E5F2042F221C3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1A45524273C1A780"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Steel must be created either with a Thermal Expansion Pyrolizer or a Mekanism Metallurgic Infuser (available before steel casings)"
+			tasks: [{
+				id: "4C0F0E8FF60F2296"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "Applied Energistics"
+			x: 11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["04712351499E8239"]
+			id: "57847F3931DB3C87"
+			rewards: [
+				{
+					id: "5902D6B0083B3B0E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "173DD0F470A6017B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Rivers can be used for automating long-distance item transfer before unlocking trains."
+			tasks: [{
+				id: "5BE379ACD9EE8310"
+				item: "littlecontraptions:barge_assembler"
+				type: "item"
+			}]
+			title: "Little Logistics"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "5E091146DA97DEBD"
+			rewards: [
+				{
+					id: "1DEBF47FBAFEB81C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "78301CB49127238E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "376B4BD89CE6EE98"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Storage"
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5E091146DA97DEBD"]
+			id: "76A25A2E5BE2DDD6"
+			rewards: [
+				{
+					id: "7C47DF8A8632E40C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "170C830B4C49E7DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6F9B1A300BC70083"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5E091146DA97DEBD"]
+			id: "38027A8EA8F78803"
+			rewards: [
+				{
+					id: "06CE7E273F07A468"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "07AA118248850861"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Connect the inventory connector to a bank of chests, and connect the storage terminal to it. You may need to use cables and cable connectors for long-distance connections."
+			tasks: [
+				{
+					id: "204EDF662A58C897"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "0636193A42E13601"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+			]
+			title: "Storage Terminal"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7C1E133BB11A6D23"]
+			icon: "create:crimsite"
+			id: "330807F466E2800E"
+			rewards: [{
+				id: "60359DEAD9FADA65"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Crimsite can be crushed for Iron with a chance for Nickel and Tin."
+			tasks: [
+				{
+					id: "0F7F1211FB985FCE"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_crimsite"
+					type: "observation"
+				}
+				{
+					id: "160D3E8B5808BB3C"
+					item: "create:crimsite"
+					type: "item"
+				}
+			]
+			title: "Renewable Ores (Crimsite)"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C1E133BB11A6D23"]
+			icon: "create:asurine"
+			id: "4124375959718DB7"
+			rewards: [{
+				id: "3937B4EEF02ABDD8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Asurine can be crushed for Zinc with a chance for Osmium."
+			tasks: [
+				{
+					id: "3B6949BF8E95A349"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_asurine"
+					type: "observation"
+				}
+				{
+					id: "1E29E936E3A4183A"
+					item: "create:asurine"
+					type: "item"
+				}
+			]
+			title: "Renewable Ores (Asurine)"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C1E133BB11A6D23"]
+			icon: "create:veridium"
+			id: "72D3642995496140"
+			rewards: [{
+				id: "2ACB7D0B5ECD55D6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Veridium can be crushed for Copper with a chance for Lead and Uranium."
+			tasks: [
+				{
+					id: "45C6A0BAD4822F05"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_veridium"
+					type: "observation"
+				}
+				{
+					id: "21DF8918109C23B8"
+					item: "create:veridium"
+					type: "item"
+				}
+			]
+			title: "Renewable Ores (Veridium)"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C1E133BB11A6D23"]
+			icon: "create:ochrum"
+			id: "02154DB28EF1827E"
+			rewards: [{
+				id: "7B53928DEB809D25"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Ochrum can be crushed for Gold with a chance for Silver and Fluorite."
+			tasks: [
+				{
+					id: "275DF75761DE2866"
+					observe_type: 0
+					timer: 0L
+					to_observe: "molten_vents:active_molten_ochrum"
+					type: "observation"
+				}
+				{
+					id: "6285ACC55C5BA473"
+					item: "create:ochrum"
+					type: "item"
+				}
+			]
+			title: "Renewable Ores (Ochrum)"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58276EEA74F82915"]
+			id: "7C1E133BB11A6D23"
+			rewards: [{
+				id: "4563489267F14001"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "29D82C429CD80A58"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Quarryin'"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44A1BA1E9FC5F234"]
+			id: "075D07FCD1BBE935"
+			rewards: [{
+				count: 32
+				id: "0DC749A0BF39C04B"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			subtitle: "Patterns can be encoded at the pattern terminal to autocraft items."
+			tasks: [{
+				id: "0D2C649FAFB3B810"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "44A1BA1E9FC5F234"
+			rewards: [
+				{
+					id: "3E1DB6EA3F491017"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "38924EAB97A7BADA"
+					item: "ae2:64k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "1FC15ED568EC8835"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "14CBCBA6356131C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "CPUs need co-processors and storage."
+			tasks: [{
+				id: "66AD98E374BB8F3A"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["44A1BA1E9FC5F234"]
+			id: "214664241D79440A"
+			rewards: [
+				{
+					count: 16
+					id: "1180FBEB7E72147D"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					id: "2C5F961E6FCC9352"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Molecular Assemblers can be placed next to full-size ME Interfaces to handle automatic crafting."
+			tasks: [{
+				id: "3448E3D7AD5D2987"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "45082C8ACBABB8C2"
+			rewards: [
+				{
+					id: "2E816738B58997A7"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "4FFFA542091CABB6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "3B63EDC7521F88D3"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			title: "Deep Storage"
+			x: 10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["44A1BA1E9FC5F234"]
+			id: "0DAC9806EBF06736"
+			rewards: [{
+				id: "26B477A625DD660E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "ME Interfaces can be given processing patterns and connected to machine or factory inputs."
+			tasks: [{
+				id: "182EC9B61BF74B59"
+				item: "ae2:cable_interface"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "0E288DE4B68D107A"
+			rewards: [{
+				id: "17D7A19A1755F52C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Upgraded version of the storage monitor that allows withdrawing and depositing items directly."
+			tasks: [{
+				id: "0C59D553A6D1EE84"
+				item: "fulleng:conversion_monitor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4B115DF36EBDCD1F"]
+			icon: "ae2:flawless_budding_quartz"
+			id: "3E13C44AD84ACB51"
+			rewards: [{
+				id: "7122F5DF0F0E3B82"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Meteors are disabled in this pack. Instead, you can craft Certus Quartz buds, and craft the presses."
+			tasks: [
+				{
+					id: "6AFD1863075D0FCE"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ae2:flawless_budding_quartz"
+					type: "observation"
+				}
+				{
+					id: "0A9A623ABCA90110"
+					item: "ae2:flawless_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Sand Down Amethyst into Certus Quartz"
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3E13C44AD84ACB51"]
+			id: "55F309E2561218F8"
+			rewards: [
+				{
+					count: 4
+					id: "2AD90A6D46FE365A"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "6938C6EC21725897"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "2521D5FED41188B1"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "37564BF66B8C4A1B"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "7904E5A5C4F3D7D1"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "1B565DDC8AD65EE0"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Hot Off the Presses"
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3E13C44AD84ACB51"]
+			id: "7D11CF4F64153149"
+			rewards: [{
+				id: "1DF9E9058771B7D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "48FA883302378ED0"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "0BFC1CED3927622E"
+			rewards: [
+				{
+					count: 8
+					id: "1A82D5AE50D86B11"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					id: "2550EFD4E89812AD"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "46F1D3A558A3E557"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3E89A8841EF68B26"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+				{
+					id: "2EE5521862010579"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "6F0E350DC006A50A"
+			rewards: [{
+				id: "3C0C1C9BA4741E2B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6D8722DFF431026E"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "2B8B598504E5A17C"
+			rewards: [
+				{
+					id: "6FA4608207672590"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "252891C25E2DAA77"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "22B1F7A8E84EA39F"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "23CED1101E356128"
+			rewards: [
+				{
+					id: "1E2890341717C05D"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					id: "65275A9CC4F1057D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "The Quantum Link bridge is the only way in this modpack to teleport items across great distances."
+			tasks: [
+				{
+					id: "7530CD6152BE8CDD"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "365EC8CF3EA6D58B"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "2C137A115CC58E03"
+			rewards: [{
+				id: "0554C62DC839C7EE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Keep your system stocked!"
+			tasks: [{
+				id: "71E7CF45AE142497"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0823597534431496"]
+			id: "72D338C0BFAEA4CB"
+			tasks: [{
+				id: "3B388FCE12982568"
+				item: "systeams:steam_dynamo"
+				type: "item"
+			}]
+			title: "Steam Powered!"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21238484C3C2FE56"]
+			id: "182451C33BF3FD2E"
+			tasks: [{
+				id: "47CB0569D01177B1"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"21238484C3C2FE56"
+				"5E091146DA97DEBD"
+			]
+			id: "628D96CDD68D60E0"
+			subtitle: "Hook up your existing chest storage to your ME network for a seamless transition"
+			tasks: [{
+				id: "205240ECA8F1BB8D"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+	]
+	title: "Technology"
+}

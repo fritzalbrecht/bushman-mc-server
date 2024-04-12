@@ -1,0 +1,7 @@
+#Fri Jan 19 09:03:40 EST 2024
+shadowDistance=128.0
+LIGHT_SHAFT=false
+SHADOW_FILTER=false
+shadowMapResolution=1024
+SHADOW_COLOR=false
+AO=false

@@ -1,0 +1,332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gates"
+	group: ""
+	icon: "balancedflight:ascended_flight_ring"
+	id: "260DB4C3E5423B96"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B3113EDE0C1008C"]
+			icon: "productivebees:upgrade_base"
+			id: "1AC7CFE49190B0CB"
+			rewards: [{
+				id: "6BFCE3B0C79B0100"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "010C4085EDBB86F6"
+					item: "productivebees:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "149476202117D59A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+					title: "Any #productivebees:expansion_boxes"
+					type: "item"
+				}
+			]
+			title: "Total Bee Domination"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27177213812EFD00"]
+			id: "36845BD078F0C726"
+			rewards: [{
+				id: "257C7073912766CB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "4A0027AC82EB80EC"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			title: "Under Pressure"
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["373EC8EF368890C1"]
+			id: "0B3113EDE0C1008C"
+			rewards: [{
+				id: "3B19741C65F1166B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "41A03D0CDFDA62F2"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			title: "The Fusion Age"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27177213812EFD00"]
+			id: "56ADDCF14874AAAA"
+			rewards: [{
+				id: "7829373B87B2733B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "293A6578A7D5B929"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "The Electric Age"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			id: "27177213812EFD00"
+			rewards: [{
+				id: "140D4226CA13A705"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "7063D0C2B30EB4AC"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Whole Lotta Brass"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["373EC8EF368890C1"]
+			id: "06ABD80A94066C95"
+			rewards: [{
+				id: "366DE53906C4E528"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					id: "16985C5DB09AAAD5"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					id: "7FD9F33C9A501F4C"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			title: "Saving The Server Tickrate"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"36845BD078F0C726"
+				"56ADDCF14874AAAA"
+			]
+			id: "373EC8EF368890C1"
+			rewards: [{
+				id: "3BB5B09D2E5139A3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "6976F3DA763021B3"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "Playing Mekanism For The 10th Time"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06ABD80A94066C95"]
+			id: "253E46814F80BE98"
+			tasks: [{
+				id: "42F2BB7FB49BB565"
+				item: {
+					Count: 1b
+					id: "hostilenetworks:data_model"
+					tag: {
+						data_model: {
+							data: 6
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Making the Wither Your Bitch"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"439756918BE59F5D"
+				"4874115633A1AAD1"
+				"5224E05CCF50234B"
+				"2B02232EC79219DB"
+				"76D4BC2D1BC5ECA9"
+				"68D32B7064C787B2"
+				"08E150086F949AF4"
+				"5008CBE9356F7BF2"
+			]
+			id: "6485BBAF5472187D"
+			rewards: [{
+				id: "7B0F6B4FCD63E9F2"
+				type: "xp_levels"
+				xp_levels: 500
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "621D4B63BB444910"
+				item: "balancedflight:ascended_flight_ring"
+				type: "item"
+			}]
+			title: "Enter the Void, Empty, and Become Wind"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "439756918BE59F5D"
+			rewards: [{
+				id: "374C691662AEE124"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "22DA72C4C3F9A707"
+				item: "kubejs:package_arcana"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			id: "2B02232EC79219DB"
+			rewards: [{
+				id: "03B1B4497B65F997"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "537BCB6A8EC5850F"
+				item: "kubejs:package_landscaping"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			id: "68D32B7064C787B2"
+			rewards: [{
+				id: "1786F935A26600C9"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4B6D4EAA47D2E0CB"
+				item: "kubejs:package_construction"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			id: "08E150086F949AF4"
+			rewards: [{
+				id: "41ABECFE17B97C18"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6670F8461F6D8F1A"
+				item: "kubejs:package_logistics"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			id: "76D4BC2D1BC5ECA9"
+			rewards: [{
+				id: "608AF7FBC0D23A35"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "624B83EB8F1C0A54"
+				item: "kubejs:package_industrial"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "5224E05CCF50234B"
+			rewards: [{
+				id: "20EFDB5989BDFEF7"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "640B811516551F28"
+				item: "kubejs:package_energistics"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "5008CBE9356F7BF2"
+			rewards: [{
+				id: "5DB22F8074D18867"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "25A9CE97ED4D1820"
+				item: "kubejs:package_lunch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "4874115633A1AAD1"
+			rewards: [{
+				id: "20FA8B6162E1FDA2"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "60F250F3A7CD514B"
+				item: "kubejs:package_drink_cooler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Main Quests"
+}
