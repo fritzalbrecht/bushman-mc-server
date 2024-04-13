@@ -68,3 +68,5 @@
 #### Just Enough Effect Descriptions (JEED)
 - **Features**: Provides detailed descriptions and explanations of potion effects, buffs, and debuffs in the game, allowing players to better understand their effects and mechanics. JEED offers tooltips and information panels for each effect, including duration, potency, and sources.
 - **Why it's interesting**: Helps players make informed decisions about potion usage and strategy, enhancing gameplay depth and immersion.
+
+Server name: mc.alimines.com
